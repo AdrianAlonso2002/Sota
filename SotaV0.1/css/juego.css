@@ -1,0 +1,37 @@
+
+body{
+    background-image: url("../img/mesa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.carj1,
+.carj2{
+    width: 250px;
+}
+
+.carj{
+    width: 400px;
+}
+
+.divcarta1,
+.divcartajuego,
+.divcarta2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.divcarta1,
+.divcarta2{
+    padding: 20;
+}
