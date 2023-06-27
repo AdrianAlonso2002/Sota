@@ -35,7 +35,7 @@ body{
 
 .divcarta1,
 .divcarta2{
-    padding: 20;
+    padding: 40;
 }
 
 .letra{
@@ -44,5 +44,9 @@ body{
 }
 
 .flecha {
-    display: none;
+    visibility: hidden;
+}
+
+.flechaw{
+    width: 100px;
 }

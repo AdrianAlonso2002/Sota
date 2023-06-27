@@ -50,15 +50,16 @@
     </div>
 
     <div class="divflecha1">
-    <p id="flecha1" id="flecha" >-></p>
+      <img id="flecha1" id="flecha" class="flechaw" src="img/flecha1.png">
     </div>
 
     <div class="divcartajuego">
+      <p id="turnode" class="letra" ><?php echo turnode($j1); ?></p>
       <img id="cartaenjuego" src="img/rev.png" class="carj">
     </div>
 
     <div class="divflecha2">
-      <p id="flecha2" id="flecha" ><-</p>
+      <img id="flecha2" id="flecha" class="flechaw" src="img/flecha2.png">
     </div>
 
     <div class="divcarta2">
